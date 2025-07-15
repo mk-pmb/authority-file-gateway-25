@@ -1,0 +1,39 @@
+{ "name": "authority-file-gateway-25",
+  "version": "0.0.0",
+  "description": "Provide a uniform search API for querying multiple authority files.",
+  "keywords": [],
+
+  "author": "Heidelberg University Library (https://www.ub.uni-heidelberg.de/)",
+  "homepage": "https://github.com/UB-Heidelberg/authority-file-gateway-25/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UB-Heidelberg/authority-file-gateway-25.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UB-Heidelberg/authority-file-gateway-25/issues"
+  },
+
+  "contributors": [
+    "M.K. (https://github.com/mk-pmb)"
+  ],
+
+  "private": false, "license": "MIT",
+
+  "main": "src/server.mjs",
+  "scripts": {
+    "lint": "elp",
+    "sh": "\"$@\"",
+    "start": "bash run_server.sh",
+    "test": "bash test/all.sh",
+    "zzz": "# This exists just because JSON doesn't allow a comma here. -->"
+  },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
