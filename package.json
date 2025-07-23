@@ -30,8 +30,18 @@
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
-  "dependencies": {},
+  "dependencies": {
+    "absdir": "^1.0.6",
+    "body-parser": "^1.20.3",
+    "express": "^4.19.2",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
+  },
   "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.8",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.16.2",
+    "eslint-pretty-pmb": "^1.0.7"
   },
 
 

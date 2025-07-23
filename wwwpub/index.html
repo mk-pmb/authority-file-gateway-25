@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>authority-file-gateway-25</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <style>
+    dt { display: block; float: left; width: 5em; }
+    dd { margin-bottom: 0.5em; }
+  </style>
+</head><body>
+
+<form action="." method="post" target="result"><dl>
+  <dt>voc</dt><dd><input type="text" name="voc" size="50" value="gnd"></dd>
+  <dt>kwd</dt><dd><input type="text" name="kwd" size="50" value="keyword"></dd>
+  <dt>skip</dt><dd><input type="text" name="skip" size="10" value="0"></dd>
+  <dt>limit</dt><dd><input type="text" name="limit" size="10" value="50"></dd>
+  <dt>&#x26A0; Hint:</dt><dd>
+    JSON in iframe is unreliable in Firefox, so if it seems to not update or
+    to be blank, check the network console.</dd>
+  <dt><input type="submit" value="submit"></dt><dd><iframe name="result"
+    src="about:blank" width="600" height="200"></iframe></dd>
+</dl></form>
+
+</body></html>
