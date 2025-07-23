@@ -1,0 +1,15 @@
+
+# Host-specific stuff
+/*.@*
+/config
+/secrets
+
+
+
+# Auto-generated files:
+/cache
+/tmp.*
+
+
+
+# Unsorted stuff (this section should be empty):

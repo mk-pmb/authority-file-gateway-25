@@ -1,0 +1,21 @@
+%YAML 1.1
+# -*- coding: UTF-8, tab-width: 2 -*-
+---
+
+version: '2.2'
+services:
+
+  ${dd_tpl_bn}'':
+    image: 'node:20'
+    # restart: 'always'
+    restart: 'no'
+    volumes:
+      - ${dd_dir}'..:/app'
+    working_dir: '/app'
+    command: 'bash src/dockerized_server.sh'
+    ports:
+      - '127.0.0.1:33480:33480'
+
+
+
+...

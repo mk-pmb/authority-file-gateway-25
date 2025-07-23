@@ -23,7 +23,7 @@
   "scripts": {
     "lint": "elp",
     "sh": "\"$@\"",
-    "start": "bash run_server.sh",
+    "start": "nodemjs src/server.mjs",
     "test": "bash test/all.sh",
     "zzz": "# This exists just because JSON doesn't allow a comma here. -->"
   },
@@ -34,6 +34,7 @@
     "absdir": "^1.0.6",
     "body-parser": "^1.20.3",
     "express": "^4.19.2",
+    "nodemjs": "^0.1.16",
     "p-fatal": "^0.1.5",
     "usnam-pmb": "^0.2.5"
   },
