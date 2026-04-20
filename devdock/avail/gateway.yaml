@@ -1,0 +1,27 @@
+%YAML 1.1
+# -*- coding: UTF-8, tab-width: 2 -*-
+---
+
+version: '2.2'
+
+services:
+
+  ${dd_tpl_bn}'':
+    image: 'node:24'
+    volumes:
+      - ${dd_dir}'..:/app'
+        #!^# volume_entry_expect_file: -f …/package.json
+        #!^# volume_entry_expect_file: -f …/serve.sh
+        #!^# volume_entry_expect_file: -x …/serve.sh
+    hostname: ${dd_cfg afgw_hostname}''
+    working_dir: '/app'
+    command: './serve.sh'
+    restart: 'always'
+    environment:
+      - ${dd_cfg}'afgw_public_baseurl='
+      - ${dd_cfg}'afgw_response_timeout_sec='
+    ports:
+      - ${dd_cfg afgw_dkport}':33480'
+
+
+...

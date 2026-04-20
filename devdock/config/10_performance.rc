@@ -1,0 +1,8 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+
+###:maybe_customize:
+CFG[afgw_response_timeout_sec]='10'
+# How many seconds the gateway server may spend trying to prepare a proper
+# response before it instead serves a timeout failure message.
+# This is a wager on the speed and reliability of the docker container
+# and upstream API servers.
