@@ -1,0 +1,25 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+
+###:maybe_customize:
+CFG[afgw_appdir]='/srv/afgw25'
+# Absolute path to your local clone of the authority-file-gateway-25 repository,
+# as seen from the docker host system. No trailing slash.
+
+###:maybe_customize:
+CFG[default_network_bridge_name]='br-ubhd-afgw25'
+# The docker network bridge name to use.
+# This is relevant for your firewall settings.
+
+###:maybe_customize:
+CFG[default_network_bridge_subnet]='192.168.25.0/24'
+# The docker network IP address range to use.
+# This is relevant for your firewall settings.
+
+###:maybe_customize:
+CFG[afgw_dkport]='127.0.0.1:33480'
+# On which interface and which port docker shall expose the gateway server.
+# This is relevant for your mod_proxy config.
+
+###:maybe_customize:
+CFG[afgw_public_baseurl]="https://$(hostname --fqdn)/afgw/"
+# The URL namespace forwarded by your mod_proxy.

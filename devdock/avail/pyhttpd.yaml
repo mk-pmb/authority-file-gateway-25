@@ -1,0 +1,24 @@
+%YAML 1.1
+# -*- coding: UTF-8, tab-width: 4 -*-
+---
+
+# This file is meant for debugging firewall rules.
+# Use it *instead* of the gateway service to run a server that's too
+# simple and too proven to be suspected of odd connection quirks.
+
+version: '2.2'
+
+services:
+
+  ${dd_tpl_bn}'':
+    image: 'python:3-alpine'
+    restart: 'no'
+    volumes:
+      - ${dd_dir}'enabled:/var/www/pub'
+    command: 'python3 -m http.server --directory . 33480'
+    working_dir: '/var/www/pub'
+    ports:
+      - ${dd_cfg afgw_dkport}':33480'
+
+
+...
