@@ -31,7 +31,9 @@
   "eslintConfig": { "extends": "nodejs-pmb" },
 
   "dependencies": {
-    "@ubhd-as22/http-server-base": "mk-pmb/as22.http-server-base#experimental"
+    "@ubhd-as22/http-server-base": "mk-pmb/as22.http-server-base#experimental",
+    "getown": "^1.0.2",
+    "typechecks-pmb": "^0.240627.1"
   },
   "devDependencies": {
     "eslint-config-nodejs-pmb": "^0.3.14",
