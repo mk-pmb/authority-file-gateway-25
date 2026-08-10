@@ -1,6 +1,9 @@
 // -*- coding: utf-8, tab-width: 2 -*-
 
+import installMainRoutes from './hnd/mainRoutes.mjs';
+
 const EX = {
+  installMainRoutes,
 };
 
 EX.cliConfigDefaults = {
