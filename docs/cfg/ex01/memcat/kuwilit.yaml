@@ -1,0 +1,111 @@
+%YAML 1.2
+# -*- coding: 'UTF-8, tab-width: 2 -*-'
+---
+
+# First list item is file metadata:
+- subject:
+    dc:title:   'Kunstwissenschaftliche Literatur – digital'
+    dc:source:  'https://www.ub.uni-heidelberg.de/helios/fachinfo/www/kunst/digilit/'
+  keywordFields:
+    - 'dc:title'
+  defaults:
+    dc:source:  'https://www.ub.uni-heidelberg.de/helios/fachinfo/www/kunst/digilit/'
+
+# Then, actual catalog entries:
+
+- dc:title:       'art journals – Kunst- und Satirezeitschriften'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/fachinfo/www/kunst/digilit/artjournals/Welcome.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_satirezeitschriften.jpg'
+
+- dc:title:       'Auktionskataloge'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/artsales.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_auktionskataloge.jpg'
+
+- dc:title:       'Architektur und Gartenkunst'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/architektur_gartenkunst.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_architektur_gartenkunst.jpg'
+
+- dc:title:       'Ausstellungskataloge'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/ausstellungskataloge.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_ausstellungskataloge.jpg'
+
+- dc:title:       'Bibliographien'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bibliographien.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_bibliographien.jpg'
+
+- dc:title:       'Bibliotheca Cicognara'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/cicognara.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_bibliotheca_cicognara.jpg'
+
+- dc:title:       'Corpus vitrearum medii aevi - Deutschland'
+  dc:identifier:  'https://digi.ub.uni-heidelberg.de/diglit/cvma'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_corpus_vitrearum.jpg'
+
+- dc:title:       'Frühchristliche und byzantinische Kunst'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/fruehchristlich.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_fruehchristliche_byzantinische_kunst.jpg'
+
+- dc:title:       'Illustrierte Tier- und Pflanzenbücher'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/natura.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_illustrierte_tier_pflanzenbuecher.jpg'
+
+- dc:title:       'Italienische Kunst und Architektur'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/italien.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_italienische_kunst_und_architektur.jpg'
+
+- dc:title:       'Kunst aus Asien und Nahost'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/kunst_asien_nahost.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_kunst_asien_nahost.jpg'
+
+- dc:title:       'Kunstgewerbe / Design'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/kunstgewerbe_design.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_kunstgewerbe.jpg'
+
+- dc:title:       'Kunsttopographie Deutschland'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/kunsttopographie_deutschland.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_kunsttopographie.jpg'
+
+- dc:title:       'Künstler A - Z'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/kuenstler.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_kuenstler_a_z.jpg'
+
+- dc:title:       'Künstler*innenbildnisse'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/kuenstlerportraets.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/verteiler_duerer.jpg'
+
+- dc:title:       'Literatur zum Jugendstil'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/jugendstil.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_jugendstil.jpg'
+
+- dc:title:       'Mittel- und osteuropäische Schriften zur Kunstgeschichte'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/moskg.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/verteiler_moskg.jpg'
+
+- dc:title:       'Neapel und Campanien'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/neapel_campanien.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_neapel_campanien.jpg'
+
+- dc:title:       'Quellen zur Geschichte der Kunstgeschichte'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/gkg.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_quellen_geschichte_kunstgeschichte.jpg'
+
+- dc:title:       'Sammlungskataloge und Museumsführer'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/fachinfo/www/kunst/digilit/sammlungskataloge_museumsfuehrer.html'
+
+- dc:title:       'Sonstige kunstwissenschaftliche Literatur'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/sonstkunst.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_sonstige_kunstwissenschaftliche_literatur.jpg'
+
+- dc:title:       'Verkaufs- und Lagerkataloge'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/verkaufskataloge.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_verkaufskatalog.jpg'
+
+- dc:title:       'Weltausstellungen im 19. Jahrhundert'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/fachinfo/www/kunst/digilit/weltausstellungen.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_weltausstellungen.jpg'
+
+- dc:title:       'Zeichenlehrbücher und Vorlagensammlungen'
+  dc:identifier:  'https://www.ub.uni-heidelberg.de/helios/digi/zeichenbuecher.html'
+  ubhd:bgimg:     'https://www.ub.uni-heidelberg.de/fachinfo/kunst/bilder/vorschau_zeichenlehrbuecher.jpg'
+
+...
